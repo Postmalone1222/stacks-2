@@ -16,3 +16,32 @@ canvas {
     background-color: white;
     cursor: pointer;
 }
+#onScreenControllers {
+    width: 80vw;
+    margin: 5vw auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #onScreenControllers > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #onScreenControllers button {
+    background-color: transparent;
+    height: 20vw;
+    width: 20vw;
+    font-size: 10vw;
+    border: none;
+  }
+
+  #onScreenControllers button:focus {
+    outline: none;
+  }
+
+  #onScreenControllers button:active {
+    background-color: slategray;
+  }
+}
